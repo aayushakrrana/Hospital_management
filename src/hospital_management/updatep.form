@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace pref="25" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="l_name" alignment="0" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="l_age" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="l_mobile" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="l_city" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="l_disease" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="tf_name" alignment="0" pref="163" max="32767" attributes="0"/>
+                          <Component id="cb_disease" alignment="0" pref="163" max="32767" attributes="0"/>
+                          <Component id="tf_mobile" alignment="0" max="32767" attributes="0"/>
+                          <Component id="cb_city" alignment="1" max="32767" attributes="0"/>
+                          <Component id="l_pre_disease" alignment="0" max="32767" attributes="0"/>
+                          <Component id="l_pre_city" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="l_pre_age" min="-2" pref="44" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cb_age" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="jLabel1" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="updatep_search" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="62" pref="62" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="l_msg" min="-2" pref="264" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                      <Component id="addp_add" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="26" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="24" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="l_name" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                  <Component id="tf_name" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="l_age" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="0" max="32767" attributes="0"/>
+                  <Component id="cb_age" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="l_pre_age" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="l_mobile" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tf_mobile" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="l_city" min="-2" max="-2" attributes="0"/>
+                  <Component id="l_pre_city" min="-2" pref="19" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="cb_city" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="l_disease" min="-2" max="-2" attributes="0"/>
+                  <Component id="l_pre_disease" min="-2" pref="19" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="cb_disease" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="addp_add" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="updatep_search" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="l_msg" min="-2" pref="36" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="l_name">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="addp_add">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addp_addActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cb_city">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="18">
+            <StringItem index="0" value="-Select City-"/>
+            <StringItem index="1" value="Dhampur"/>
+            <StringItem index="2" value="Delhi"/>
+            <StringItem index="3" value="Mumbai"/>
+            <StringItem index="4" value="Ghaziabad"/>
+            <StringItem index="5" value="Moradabad"/>
+            <StringItem index="6" value="Meerut"/>
+            <StringItem index="7" value="Bijnor"/>
+            <StringItem index="8" value="Ahmadabad"/>
+            <StringItem index="9" value="Bhubaneshwar"/>
+            <StringItem index="10" value="Kota"/>
+            <StringItem index="11" value="Jhansi"/>
+            <StringItem index="12" value="Bareilly"/>
+            <StringItem index="13" value="Aligarh"/>
+            <StringItem index="14" value="Bhiwandi"/>
+            <StringItem index="15" value="Jammu"/>
+            <StringItem index="16" value="Mangalore"/>
+            <StringItem index="17" value="Dehra Dun"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="l_mobile">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mobile"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cb_age">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="51">
+            <StringItem index="0" value="----"/>
+            <StringItem index="1" value="1"/>
+            <StringItem index="2" value="2"/>
+            <StringItem index="3" value="3"/>
+            <StringItem index="4" value="4"/>
+            <StringItem index="5" value="5"/>
+            <StringItem index="6" value="6"/>
+            <StringItem index="7" value="7"/>
+            <StringItem index="8" value="8"/>
+            <StringItem index="9" value="9"/>
+            <StringItem index="10" value="10"/>
+            <StringItem index="11" value="11"/>
+            <StringItem index="12" value="12"/>
+            <StringItem index="13" value="13"/>
+            <StringItem index="14" value="14"/>
+            <StringItem index="15" value="15"/>
+            <StringItem index="16" value="16"/>
+            <StringItem index="17" value="17"/>
+            <StringItem index="18" value="18"/>
+            <StringItem index="19" value="19"/>
+            <StringItem index="20" value="20"/>
+            <StringItem index="21" value="21"/>
+            <StringItem index="22" value="22"/>
+            <StringItem index="23" value="23"/>
+            <StringItem index="24" value="24"/>
+            <StringItem index="25" value="25"/>
+            <StringItem index="26" value="26"/>
+            <StringItem index="27" value="27"/>
+            <StringItem index="28" value="28"/>
+            <StringItem index="29" value="29"/>
+            <StringItem index="30" value="30"/>
+            <StringItem index="31" value="31"/>
+            <StringItem index="32" value="32"/>
+            <StringItem index="33" value="33"/>
+            <StringItem index="34" value="34"/>
+            <StringItem index="35" value="35"/>
+            <StringItem index="36" value="36"/>
+            <StringItem index="37" value="37"/>
+            <StringItem index="38" value="38"/>
+            <StringItem index="39" value="39"/>
+            <StringItem index="40" value="40"/>
+            <StringItem index="41" value="41"/>
+            <StringItem index="42" value="42"/>
+            <StringItem index="43" value="43"/>
+            <StringItem index="44" value="44"/>
+            <StringItem index="45" value="45"/>
+            <StringItem index="46" value="46"/>
+            <StringItem index="47" value="47"/>
+            <StringItem index="48" value="48"/>
+            <StringItem index="49" value="49"/>
+            <StringItem index="50" value="50"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="l_age">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Age"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_name">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tf_nameActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="l_city">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="City"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tf_mobile">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tf_mobileActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Microsoft Sans Serif" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Update Registration"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="l_msg">
+    </Component>
+    <Component class="javax.swing.JLabel" name="l_disease">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Disease"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cb_disease">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="-Select Disease-"/>
+            <StringItem index="1" value="Cold"/>
+            <StringItem index="2" value="Fever"/>
+            <StringItem index="3" value="Thyphoid"/>
+            <StringItem index="4" value="Nausea"/>
+            <StringItem index="5" value="Headache"/>
+            <StringItem index="6" value="Dijestive Disorder"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="l_pre_disease">
+    </Component>
+    <Component class="javax.swing.JLabel" name="l_pre_city">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+    </Component>
+    <Component class="javax.swing.JLabel" name="l_pre_age">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="  "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="updatep_search">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Search"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="updatep_searchActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
