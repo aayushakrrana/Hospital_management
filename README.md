@@ -5,7 +5,9 @@ The program currently lets you add new patient to the database, search for exist
 
 To run the program :-
 >> Fork the repository.
+
 >> Create a MySQL database, here with name 'hospital'.
+
 >> Create a table in the databse, here with name 'patient'.
 >> Name the column of the table as follows :-  Id | Name | Age | Mobile | City | Disease
 >> run the program.
